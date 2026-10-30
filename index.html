@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website </title>
+    <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+/>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<header class="Main-header wrapper">
+  <a href="index.html" class="link">CodeWolf</a>
+
+  <nav class="nav-menu" id="nav-menu">
+    <ul class="flex">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <a href="#contact" class="btn hire-btn">Hire me</a>
+
+  <button
+    class="hamburger"
+    id="hamburger"
+    type="button"
+    aria-label="Open navigation menu"
+    aria-expanded="false"
+    aria-controls="nav-menu"
+  >
+    <i class="fa-solid fa-bars"></i>
+  </button>
+</header>
+
+    <div class="desktop-menu">
+
+        <a href="#" class="hamburger">
+            <i class="fa-solid fa-bars" style="color: rgb(0, 0, 0)"></i>
+          </a>
+          
+    </div>
+
+    <main>
+        <section class="wrapper  flex  between gap-3 ">
+            <div class="hero-text">
+                <h1 class="heading">Welcome to my Portfolio</h1>
+                <p>I'm a passionate web developer and designer.</p>
+                <a href="#projects" class="btn">View My Work</a>
+            </div>
+            <div class="about-image pt-4">
+                <img src="images/hero.png" alt="Hero Image">
+            </div>
+        </section>
+
+
+       
+<section class="about  " id="about">
+  <div class="about-image">
+    <img src="images/hero.png" alt="Adewale Samuel">
+  </div>
+
+  <div class="about-content">
+    <p class="section-label">About Me</p>
+
+    <h2>Who I Am</h2>
+
+    <p class="about-description">
+      I'm Adewale Samuel, a frontend developer with
+      a strong interest in technology, problem-solving,
+      and creating user-friendly web experiences.
+      I'm currently learning and improving my skills
+      in web development, with a goal to become a
+      full-stack developer and build real solutions
+      that make an impact.
+    </p>
+
+    <p class="about-location">
+      <i class="fa-solid fa-location-dot"></i>
+      Ilesa, Osun State, Nigeria
+    </p>
+  </div>
+</section>
+
+
+        <section class="Skills  wrapper center  ">
+            <h4  class="section-label ">Skills</h4>
+            <h2>Tools & Technologies </h2>
+            <div class="grid-card ">
+                <div class="skill-icon">
+  <i class="fa-brands fa-html5 html" style="color: red; fill: white;"></i>
+  <p>HTML5</p>
+</div>
+
+<div class="skill-icon">
+  <i class="fa-brands fa-css3-alt css" style="fill: white; color: blue;" ></i>
+  <p>CSS3</p>
+</div>
+
+<div class="skill-icon">
+  <i class="fa-brands fa-js javascript" style="color: yellow;"></i>
+  <p>JavaScript</p>
+</div>
+
+<div class="skill-icon">
+  <i class="fa-brands fa-react" style="color: #61dafb;"></i>
+  <p>React</p>
+</div>
+
+
+            </div>
+
+        </section>
+
+         <section class="projects-section wrapper  mt-4" id="projects">
+ 
+    <!-- Section heading -->
+    <div class="section-heading">
+      <h2>Projects</h2>
+      <p>Things I've built so far</p>
+      <div class="heading-line"></div>
+    </div>
+ 
+    <!-- Cards grid -->
+    <div class="projects-grid">
+ 
+      <!-- Card 1 -->
+      <div class="project-card">
+        <div class="card-image">
+          <img src="images/tic.png" alt="Tic Tac Toe Game" />
+          <div class="card-overlay">
+            <span>View Project</span>
+          </div>
+        </div>
+        <div class="card-body">
+          <h3 class="card-title">Tic-tac-toe Game</h3>
+          <p class="card-desc">A simple tic-tac-toe game built with HTML, CSS, React and JS</p>
+          <div class="card-tags">
+            <span class="tag">React</span>
+            <span class="tag">CSS</span>
+            <span class="tag">JavaScript</span>
+          </div>
+          <div class="card-actions">
+            <a href="https://github.com/AdeSam247/my-react-app.git" class="btn btn-outline">
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+              Github
+            </a>
+            <a href="https://my-react-app-lyart.vercel.app/" class="btn btn-primary">
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              Live
+            </a>
+          </div>
+        </div>
+      </div>
+ 
+      <!-- Card 2 -->
+      <div class="project-card">
+        <div class="card-image">
+          <img src="./images/calculator.jpg" alt="Dashboard UI" />
+          <div class="card-overlay">
+            <span>View Project</span>
+          </div>
+        </div>
+        <div class="card-body">
+          <h3 class="card-title">Calculator</h3>
+          <p class="card-desc">A responsive calculator Used for claclulations.</p>
+          <div class="card-tags">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">JavaScript</span>
+          </div>
+          <div class="card-actions">
+            <a href="https://github.com/AdeSam247/calculator.git" class="btn btn-outline">
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+              Github
+            </a>
+            <a href="https://calculator-codewolf.vercel.app/" class="btn btn-primary">
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              Live
+            </a>
+          </div>
+        </div>
+      </div>
+ 
+      <!-- Card 3 -->
+ 
+      <!-- Card 4 -->
+      <div class="project-card">
+        <div class="card-image">
+          <img src="./images/weather.png" alt="Weather App" />
+          <div class="card-overlay">
+            <span>View Project</span>
+          </div>
+        </div>
+        <div class="card-body">
+          <h3 class="card-title">Weather App</h3>
+          <p class="card-desc">A weather app that fetches live data from an API and displays it cleanly.</p>
+          <div class="card-tags">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">API</span>
+          </div>
+          <div class="card-actions">
+            <a href="https://github.com/AdeSam247/Weather.git" class="btn btn-outline">
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+              Github
+            </a>
+            <a href="
+weather-beta-seven-61.vercel.app" class="btn btn-primary">
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              Live
+            </a>
+          </div>
+        </div>
+      </div>
+ 
+      <!-- Card 5 -->
+
+    
+ 
+    </div>
+  </section>
+
+<section class="contact" id="contact">
+  <p class="section-label">GET IN TOUCH</p>
+
+  <h2>Let's Work Together</h2>
+
+  <p class="contact-text">
+    Have a project in mind or an opportunity to share?
+    I'd love to hear from you.
+  </p>
+
+  <div class="contact-links">
+    <a href="mailto:adewlaesamuelayobami@gmail.com">
+      <i class="fa-solid fa-envelope"></i>
+      Email Me
+    </a>
+
+    <a href="https://github.com/Adesam247"
+       target="_blank" rel="noopener noreferrer">
+      <i class="fa-brands fa-github"></i>
+      GitHub
+    </a>
+
+    <a href="https://www.linkedin.com/in/adewale-samuel-ayobami/"
+       target="_blank" rel="noopener noreferrer">
+      <i class="fa-brands fa-linkedin"></i>
+      LinkedIn
+    </a>
+  </div>
+</section>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
